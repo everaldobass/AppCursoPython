@@ -1,2 +1,2 @@
-# AppPython
+# CursoPython
 Curso de Python
