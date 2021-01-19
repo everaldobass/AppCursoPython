@@ -7,7 +7,6 @@ idade = 30
 peso = 50.7
 #masculino = true
 
-
 print(type(nome))
 print(type(idade))
 print(type(peso))
