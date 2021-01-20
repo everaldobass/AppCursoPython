@@ -19,7 +19,6 @@ exp = 5 ** 5
 divint = 5 // 2
 mod = "%"
 
-
 print("\nResultado das operações")
 
 print("Soma é: ", soma)

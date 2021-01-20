@@ -1,9 +1,9 @@
-#5.1
-#Aritméticos
-#Os operadores aritméticos são responsáveis por realizar as operações matemáticas básicas,
-#eles estão representados na tabela a seguir:
+"""
+5.1 - Aritméticos
+Os operadores aritméticos são responsáveis por realizar as operações matemáticas básicas,
+eles estão representados na tabela a seguir:
 print("-----------------Operações Aritimeticas----------------------")
-
+"""
 #n1 = int(input("Digite um número: "))
 #n2 = int(input(("Digite outro número: "))
 
@@ -15,7 +15,6 @@ div = 5 / 2
 exp = 5 ** 5
 divint = 5 // 2
 mod = "%"
-
 
 print("\nResultado das operações")
 
