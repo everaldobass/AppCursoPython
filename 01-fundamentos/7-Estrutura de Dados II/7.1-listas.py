@@ -9,6 +9,7 @@ Podem ser atribuídas usando colchetes:
 
 """
 
+# Podem ser atribuídas usando colchetes:
 x = [10, 5, 11, 0, 3]
 print(x)
 
