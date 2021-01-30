@@ -20,3 +20,39 @@ git push
 # django com python
 
 https://www.djangoproject.com/
+
+
+# Python3
+
+
+sudo apt-get install python3-pip
+sudo apt-get install python3-tk
+
+sudo apt-get update
+
+# instalar o anbiente virtual 
+sudo pip3 install virtualenv
+
+# Criando anbiente virtual
+python3 -m venv venv
+
+# Ativando o venv
+. venv/bin/activate
+
+# Desativar
+deactivate
+
+# Configurações global do VS Coder
+
+"code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "python.languageServer": "Microsoft",
+
+
+    "[python]":{
+        "editor.formatOnSave": true
+    }
+
+
+
+
