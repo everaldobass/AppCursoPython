@@ -24,7 +24,6 @@ https://www.djangoproject.com/
 
 # Python3
 
-
 sudo apt-get install python3-pip
 sudo apt-get install python3-tk
 
@@ -38,6 +37,7 @@ python3 -m venv venv
 
 # Ativando o venv
 . venv/bin/activate
+
 
 # Desativar
 deactivate
