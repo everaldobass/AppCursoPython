@@ -1,0 +1,12 @@
+#Instalação do djando
+
+pip install Django
+
+#Start do projeto
+
+django-admin startproject project .
+
+#Criando App.
+python mange.py startapp app
+
+# python manage.py runserver
