@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from app.forms import CarrosForm
 
 # Importaou o codigo abaixo
 #from django.http import HttpResponse
@@ -15,4 +16,6 @@ def home(request):
 
 
 def form(request):
-    return render(request, 'form.html')
+    data = {}
+    data['form'] = CarrosForm()
+    return render(request, 'form.html', data)

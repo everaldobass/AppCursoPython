@@ -1,12 +1,27 @@
 #Instalação do djando
-
 pip install Django
 
-#Start do projeto
-
+## Start do projeto
 django-admin startproject project .
 
-#Criando App.
-python mange.py startapp app
+# Criando um App.
+python manage.py startapp app
 
-# python manage.py runserver
+# Start o servidor 
+python manage.py runserver
+
+# Criar os models
+
+class Person(models.Model):
+    modelo = models.CharField(max_length=150)
+    marca = models.CharField(max_length=100)
+    ano = models.IntegerField()
+
+#Criar migrations 
+
+python manage.py makemigrations
+
+# Criar o Banco de Dados
+python manage.py migrate
+
+# Detro da pasta Micrations, cria a classe carro com todas as informações do BD
