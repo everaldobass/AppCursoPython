@@ -1,0 +1,16 @@
+
+# Instalação Bibliotecas Python3
+
+pip3 install pandas
+pip3 install openpyxl
+pip3 install twilio
+
+
+
+Sites
+https://letscode.com.br/blog/aprenda-a-integrar-python-e-excel
+
+https://www.twilio.com/docs/libraries/python
+
+
+
