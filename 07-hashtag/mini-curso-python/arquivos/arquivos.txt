@@ -1,0 +1,91 @@
+
+#Configuração Global do Git no terminal
+git config --global user.email "email@gmail.com"
+git config --global user.name  "nome"
+
+#Comandos do Git
+01 - Clonar um projeto
+git clone https://github.com/everaldobass/portfolio.git
+
+02 - Adicionar no Git
+git add .
+
+03 - commitar no Git
+ git commit -m "Nome do Commit "
+
+04 - Push no Git
+git push
+
+
+# django com python
+
+https://www.djangoproject.com/
+
+
+# Python3
+sudo apt-get install python3-pip
+sudo apt-get install python3-tk
+
+sudo apt-get update
+
+# instalar o anbiente virtual 
+sudo pip3 install virtualenv
+
+# Criando anbiente virtual
+python3 -m venv venv
+
+# Ativando o venv
+. venv/bin/activate
+
+
+# Desativar
+deactivate
+
+# Configurações global do VS Coder
+
+"code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "python.languageServer": "Microsoft",
+
+
+    "[python]":{
+        "editor.formatOnSave": true
+    }
+
+
+# Arquivo json
+venv/bin/python
+
+
+
+# Instalação Bibliotecas Python3
+
+1 pip3 install pandas
+2 pip3 install openpyxl
+
+3 pip3 install twilio
+
+Sites de apoio 
+https://letscode.com.br/blog/aprenda-a-integrar-python-e-excel
+https://pages.hashtagtreinamentos.com/minicurso-python-automacao?blog=1n4033rer&video=nlhzfo6b
+
+## immportar as bibliotecas
+
+import pandas as pd
+
+
+## Lógica de programação
+
+## importar a base de dados
+
+## Visualisar a base de dados
+
+## Faturamento por loja
+
+## Quantidade de produtos vendidos por loja
+
+## Tiket Média por loja
+
+## Enviar um e-mail com o relatório
+
+
