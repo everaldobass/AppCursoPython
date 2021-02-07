@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/everaldo/Público/Desenvolvimento/python/Projetos/venv"
+set -gx VIRTUAL_ENV "/home/everaldo/Público/Developer/curso-python3/05-jogos/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
