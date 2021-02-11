@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/everaldo/Público/Developer/curso-python3/06-crud-jango/venv/bin/python3",
+    "python.pythonPath": "venv/bin/python",
 
     "code-runner.executorMap": {
         "javascript": "node",

@@ -28,7 +28,7 @@ def create(request):
 def view(request, pk):
     data = {}
     data['db'] = Carros.objects.get(pk=pk)
-    return render(request,'view.html', data)
+    return render(request, 'view.html', data)
 
 
 def edit(request, pk):
@@ -45,3 +45,9 @@ def update(request, pk):
     if form.is_valid():
         form.save()
         return redirect('home')
+
+
+def delete(request, pk):
+    db = Carros.objects.get(pk=pk)
+    db.delete()
+    return redirect('home')
